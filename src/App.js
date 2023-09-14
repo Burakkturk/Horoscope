@@ -1,15 +1,13 @@
-import "./App.scss";
-import Header from "./components/header/Header";
-import Main from "./components/main/Main";
-import Navbar from "./components/navbar/Navbar";
+import { Container } from "react-bootstrap";
+import Header from "./components/Header";
+import ContainerCard from "./components/ContainerCard";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <Container className="text-center mt-5">
       <Header />
-      <Main />
-    </div>
+      <ContainerCard />
+    </Container>
   );
 }
 
