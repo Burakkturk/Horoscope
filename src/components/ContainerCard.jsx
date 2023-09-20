@@ -4,14 +4,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useState } from "react";
-// import { data } from "../helpers/data";
+import { data } from "../helpers/data";
 
 const ContainerCard = () => {
   const [search, setSearch] = useState("");
   const handleChange = (e) => {
-    console.log(e.target)
-    setSearch(e.target.value)
-    console.log(search)
+    console.log(e.target);
+    setSearch(e.target.value);
+    console.log(search);
   };
   // const handleChange = (e) => {
   //   console.log(e.target.value);
